@@ -71,7 +71,7 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 
 " Vim Behavior
 set laststatus=2
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+set statusline=\ %{HasPaste()}%.50F%m%r%h\ %w\ \ CWD:\ %r%.50{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 
 " Additional Stuff
 
