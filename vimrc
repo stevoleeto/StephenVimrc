@@ -91,3 +91,4 @@ endfunction
 
 set mouse=a
 set nu
+set cursorline
