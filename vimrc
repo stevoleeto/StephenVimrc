@@ -92,3 +92,4 @@ endfunction
 set mouse=a
 set nu
 set cursorline
+set colorcolumn=80
